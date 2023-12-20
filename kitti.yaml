@@ -1,8 +1,0 @@
-train: /storage/kitti_dataset_splitted/images/train/
-val: /storage/kitti_dataset_splitted/images/val/
-test: /storage/kitti_dataset_splitted/images/test/
-# number of classes
-nc: 3
-
-# class names
-names: ["pedestrian", "cyclist", "car"]

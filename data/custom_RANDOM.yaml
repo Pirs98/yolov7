@@ -1,0 +1,14 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+#download: bash ./scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /storage/DATASET_NO_UAV_RANDOM_SPLITTED/images/train
+val: /storage/DATASET_NO_UAV_RANDOM_SPLITTED/images/val
+test: /storage/DATASET_NO_UAV_RANDOM_SPLITTED/images/val
+# number of classes
+nc: 5
+
+# class names
+names: ['bike', 'car', 'lorry', 'bus', 'pedestrian']
