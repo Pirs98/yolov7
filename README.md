@@ -10,16 +10,16 @@ This repository contains the implementation of the Thesis mentioned above. This 
 
 | Model | Description | P-Bike | P-Car | P-Lorry | P-Bus | P-Pedestrian | mAP@.5 | mAP@.5:.95 |
 | :-- | :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-[**M0**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | No Augmentations | 0.555 | 0.908 | 0.768 | 0.740 | 0.278 | **0.652** | 0.396 |
-[**M1**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | Spatial | 0.675 | 0.923 | 0.800 | 0.790 | 0.375 | **0.677** | 0.410 |
-[**M2**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | Color | 0.563 | 0.900 | 0.755 | 0.575 | 0.290 | **0.627** | 0.373 |
-[**M3**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | Spatial<br>Color | 0.643 | 0.915 | 0.785 | 0.715 | 0.315 | **0.655** | 0.392 |
-[**M4**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | Spatial<br>Color<br>Mosaic | 0.740 | 0.940 | 0.885 | 0.860 | 0.460 | **0.762** | 0.475 |
-[**M4.1**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | Spatial<br>Mosaic | 0.735 | 0.940 | 0.890 | 0.888 | 0.473 | **0.767** | 0.475 |
-[**M5**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | M4.1 setup<br>Dropout | 0.710 | 0.935 | 0.850 | 0.775 | 0.408 | **0.732** | 0.446 |
-[**M6**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | M5 setup<br>+100 Hard Samples | 0.748 | 0.950 | 0.888 | 0.883 | 0.558 | **0.790** | 0.492 |
-[**M6.1**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | M4.1 setup<br>+100 Hard Samples | 0.773 | 0.950 | 0.893 | 0.858 | 0.598 | **0.803** | 0.507 |
-[**M7**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | M5 setup<br>+100 Random Samples | 0.708 | 0.948 | 0.885 | 0.860 | 0.460 | **0.770** | 0.488 |
+**M0** | No Augmentations | 0.555 | 0.908 | 0.768 | 0.740 | 0.278 | 0.652 | 0.396 |
+**M1** | Spatial | 0.675 | 0.923 | 0.800 | 0.790 | 0.375 | 0.677 | 0.410 |
+**M2** | Color | 0.563 | 0.900 | 0.755 | 0.575 | 0.290 | 0.627 | 0.373 |
+**M3** | Spatial<br>Color | 0.643 | 0.915 | 0.785 | 0.715 | 0.315 | 0.655 | 0.392 |
+**M4** | Spatial<br>Color<br>Mosaic | 0.740 | 0.940 | 0.885 | 0.860 | 0.460 | 0.762 | 0.475 |
+**M4.1** | Spatial<br>Mosaic | 0.735 | 0.940 | 0.890 | 0.888 | 0.473 | 0.767 | 0.475 |
+**M5** | M4.1 setup<br>Dropout | 0.710 | 0.935 | 0.850 | 0.775 | 0.408 | 0.732 | 0.446 |
+**M6** | M5 setup<br>+100 Hard Samples | 0.748 | 0.950 | 0.888 | 0.883 | 0.558 | 0.790 | 0.492 |
+**M6.1** | M4.1 setup<br>+100 Hard Samples | 0.773 | 0.950 | 0.893 | 0.858 | 0.598 | **0.803** | **0.507** |
+**M7** | M5 setup<br>+100 Random Samples | 0.708 | 0.948 | 0.885 | 0.860 | 0.460 | 0.770 | 0.488 |
     
 ## Other Trained Models
 
@@ -28,14 +28,15 @@ This repository contains the implementation of the Thesis mentioned above. This 
 
 | Model | Description | P-Bike | P-Car | P-Lorry | P-Bus | P-Pedestrian | mAP@.5 | mAP@.5:.95 |
 | :-- | :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-[**M4.2**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | Mosaic | 0.710 | 0.930 | 0.870 | 0.890 | 0.460 | **0.747** | 0.460 |
-[**M4.3**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | M4.1 Setup<br>Mixup | 0.750 | 0.940 | 0.870 | 0.840 | 0.480 | **0.768** | 0.474 |
-[**M5.1**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | M4.1 Setup<br>DropBlock  | 0.788 | 0.950 | 0.905 | 0.885 | 0.540 | **0.798** | 0.510 |
-[**M6.2**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | M4.1 Setup<br>+100 Max Hard Samples | 0.643 | 0.915 | 0.785 | 0.715 | 0.315 | **0.655** | 0.392 |
-[**M6.3**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | M4.1 Setup<br>+200 Hard Samples | 0.798 | 0.953 | 0.890 | 0.890 | 0.620 | **0.809** | 0.509 |
-[**M6.4**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | M4.1 Setup<br>+100 Entropy Images | 0.780 | 0.950 | 0.878 | 0.883 | 0.593 | **0.803** | 0.507 |
-[**M8**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | M4.1 setup<br>All images | 0.870 | 0.960 | 0.920 | 0.890 | 0.690 | **0.878** | 0.582 |
-   
+**M4.2** | Mosaic | 0.710 | 0.930 | 0.870 | 0.890 | 0.460 | 0.747 | 0.460 |
+**M4.3** | M4.1 Setup<br>Mixup | 0.750 | 0.940 | 0.870 | 0.840 | 0.480 | 0.768 | 0.474 |
+**M5.1** | M4.1 Setup<br>DropBlock  | 0.788 | 0.950 | 0.905 | 0.885 | 0.540 | 0.798 | 0.510 |
+**M6.2** | M4.1 Setup<br>+100 Max Hard Samples | 0.643 | 0.915 | 0.785 | 0.715 | 0.315 | 0.655 | 0.392 |
+**M6.3** | M4.1 Setup<br>+200 Hard Samples | 0.798 | 0.953 | 0.890 | 0.890 | 0.620 | 0.809 | 0.509 |
+**M6.4** | M4.1 Setup<br>+100 Entropy Images | 0.780 | 0.950 | 0.878 | 0.883 | 0.593 | 0.803 | 0.507 |
+**M8** | M4.1 setup<br>All images | 0.870 | 0.960 | 0.920 | 0.890 | 0.690 | 0.878 | 0.582 |
+
+
 
 
 Docker environment (recommended)
