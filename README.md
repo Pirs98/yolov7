@@ -35,9 +35,17 @@ This repository contains the implementation of the Thesis mentioned above. This 
 **M6.3** | M4.1 Setup<br>+200 Hard Samples | 0.798 | 0.953 | 0.890 | 0.890 | 0.620 | 0.809 | 0.509 |
 **M6.4** | M4.1 Setup<br>+100 Entropy Images | 0.780 | 0.950 | 0.878 | 0.883 | 0.593 | 0.803 | 0.507 |
 **M8** | M4.1 setup<br>All images | 0.870 | 0.960 | 0.920 | 0.890 | 0.690 | 0.878 | 0.582 |
+</details>
 
+# New inference scripts
 
+The new Python files added to the previous version are:
 
+* `detect_entropy.py`: computes entropy as the average of the one of each object and plots the result within the image.
+* `detect_entropy_list.py`: computes entropy as the average of the one of each object and creates a list sorted by values. The file list path must be written [here](https://github.com/Pirs98/yolov7/blob/main/detect_entropy_list.py#L139).
+* `detect_uncertainty.py`: computes uncertainty using the Monte Carlo Dropout Method and plots the result within the image. Dropout architecture is required for correct operation.
+* `detect_uncertainty_list.py`: computes uncertainty using the Monte Carlo Dropout Method as the average of the one of each object and creates a list sorted by values. Dropout architecture is required for correct operation. The file list path must be written [here](https://github.com/Pirs98/yolov7/blob/main/detect_uncertainty_list.py#L250C5-L250C24).
+* `detect_uncertainty_list_max.py`: computes uncertainty using the Monte Carlo Dropout Method as the maximum uncertainty among all objects and creates a list sorted by values. Dropout architecture is required for correct operation. The file list path must be written [here](https://github.com/Pirs98/yolov7/blob/main/detect_uncertainty_list_max.py#L250).
 
 Docker environment (recommended)
 <details><summary> <b>Expand</b> </summary>
