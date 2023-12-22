@@ -4,7 +4,7 @@ Implementation of Pietro Santandreas's Master Thesis - [Investigation on the Eff
 
 ## Overview
 
-This repository contains the implementation of the Thesis mentioned above. This work was carried out at the DLR (German Aerospace Center) and focused on tools for optimizing training performance. The model used was ([YOLOv7](https://github.com/WongKinYiu/yolov7)); it is possible to find tutorials on how to properly train and perform inference within the original GitHub repository. The tools in focus were Data Augmentation, Dropout Regularization, and Hard Examples Mining. The raw results can be seen [here](scripts/results.xlsx). The dataset belongs to the company, it consists of top-view footage of urban streets and contains five types of classes: Bike, Car, Lorry, Bus, and Pedestrian. Only 174 and 116 images were selected for the training and validation set.
+This repository contains the implementation of the Thesis mentioned above. This work was carried out at the DLR (German Aerospace Center) and focused on tools for optimizing training performance. The model used was [YOLOv7](https://github.com/WongKinYiu/yolov7); it is possible to find tutorials on how to train and perform inference within the original GitHub repository properly. The tools in focus were Data Augmentation, Dropout Regularization, and Hard Examples Mining. The raw results can be seen [here](scripts/results.xlsx). The dataset belongs to the company; it consists of top-view footage of urban streets and contains five types of classes: Bike, Car, Lorry, Bus, and Pedestrian. Only 174 and 116 images were selected for the training and validation set.
 
 
 ## Results Table
